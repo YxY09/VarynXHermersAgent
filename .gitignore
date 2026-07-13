@@ -2,6 +2,18 @@
 
 # local visual-QA scratch (screenshots / reports from skin & UI checks)
 .visual-check/
+
+# tsc -b emits .js/.d.ts next to .ts/.tsx sources in apps/desktop & apps/shared
+# (no noEmit/outDir in their tsconfig). These are build artifacts, not source.
+apps/desktop/src/**/*.js
+apps/desktop/src/**/*.js.map
+apps/desktop/src/**/*.d.ts
+apps/shared/src/**/*.js
+apps/shared/src/**/*.js.map
+apps/shared/src/**/*.d.ts
+
+# workspace runtime caches
+workspace/*_cache.json
 /venv/
 /venv.old/
 /_pycache/
