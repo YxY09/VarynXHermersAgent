@@ -277,10 +277,49 @@ export const slateTheme: DesktopTheme = {
   }
 }
 
+/** Molten crimson and gold — dragon fire. Matches the CLI varynx skin. */
+export const varynxTheme: DesktopTheme = {
+  name: 'varynx',
+  label: 'VarynX',
+  description: 'Molten crimson and gold — dragon fire',
+  colors: {
+    background: '#160606',
+    foreground: '#FFE9D0',
+    card: '#1e0a0a',
+    cardForeground: '#FFE9D0',
+    muted: '#2a0e0e',
+    mutedForeground: '#b07a5a',
+    popover: '#22100c',
+    popoverForeground: '#FFE9D0',
+    primary: '#FFC857',
+    primaryForeground: '#160606',
+    secondary: '#3a1410',
+    secondaryForeground: '#f0c090',
+    accent: '#3a0f0f',
+    accentForeground: '#FFC857',
+    border: '#4a1410',
+    input: '#4a1410',
+    ring: '#FF5A1F',
+    midground: '#FF5A1F',
+    composerRing: '#FF5A1F',
+    destructive: '#ef5350',
+    destructiveForeground: '#160606',
+    sidebarBackground: '#0e0404',
+    sidebarBorder: '#2a0a08',
+    userBubble: '#3a0f0a',
+    userBubbleBorder: '#6a1c10'
+  },
+  typography: {
+    fontMono: `"JetBrains Mono", ${SYSTEM_MONO}`,
+    fontUrl: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap'
+  }
+}
+
 export const BUILTIN_THEMES: Record<string, DesktopTheme> = {
   nous: nousTheme,
   midnight: midnightTheme,
   ember: emberTheme,
+  varynx: varynxTheme,
   mono: monoTheme,
   cyberpunk: cyberpunkTheme,
   slate: slateTheme
