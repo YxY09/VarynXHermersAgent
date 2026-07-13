@@ -11,3 +11,7 @@ platforms:
     port: 8642
     enabled: true
 mcp_servers: {}
+
+# 皮肤：自定义 varynx（熔岩红 + 金，龙焰主题，见 hermes_cli/skin_engine.py）
+display:
+  skin: varynx
