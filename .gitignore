@@ -1,4 +1,7 @@
 .DS_Store
+
+# local visual-QA scratch (screenshots / reports from skin & UI checks)
+.visual-check/
 /venv/
 /venv.old/
 /_pycache/

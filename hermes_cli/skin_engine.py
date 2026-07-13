@@ -642,6 +642,83 @@ _BUILTIN_SKINS: Dict[str, Dict[str, Any]] = {
 [#F29C38]⠀⠀⠀⠀⠀⠀⠀⣼⡟⠀⠀⢻⣧⠀⠀⠀⠀⠀⠀⠀⠀[/]
 [dim #7A3511]⠀⠀⠀⠀⠀⠀⠀tail flame lit⠀⠀⠀⠀⠀⠀⠀⠀[/]""",
     },
+    "varynx": {
+        "name": "varynx",
+        "description": "Dragon-god theme — molten crimson and gold",
+        "colors": {
+            "banner_border": "#7A0F0F",
+            "banner_title": "#FFC857",
+            "banner_accent": "#FF5A1F",
+            "banner_dim": "#4A0E0E",
+            "banner_text": "#FFE9D0",
+            "ui_accent": "#FF5A1F",
+            "ui_label": "#FFC857",
+            "ui_ok": "#4caf50",
+            "ui_error": "#ef5350",
+            "ui_warn": "#ffa726",
+            "prompt": "#FFE9D0",
+            "input_rule": "#7A0F0F",
+            "response_border": "#FF5A1F",
+            "status_bar_bg": "#160606",
+            "status_bar_text": "#FFE9D0",
+            "status_bar_strong": "#FFC857",
+            "status_bar_dim": "#6E4A3A",
+            "status_bar_good": "#7BC96F",
+            "status_bar_warn": "#FFC857",
+            "status_bar_bad": "#FF5A1F",
+            "status_bar_critical": "#EF5350",
+            "session_label": "#FFC857",
+            "session_border": "#6E4A3A",
+            "selection_bg": "#3A0F0F",
+            "completion_menu_bg": "#0E0303",
+            "completion_menu_current_bg": "#3A0F0F",
+            "completion_menu_meta_bg": "#160808",
+            "completion_menu_meta_current_bg": "#3A0F0F",
+        },
+        "spinner": {
+            "waiting_faces": ["(\u25b2)", "(\u2726)", "(\u25c6)", "(\u25b4)", "(/)"],
+            "thinking_faces": ["(\u25b2)", "(\u2726)", "(\u25c6)", "(\u2341)", "(\u25b4)"],
+            "thinking_verbs": [
+                "stoking the forge", "fanning the embers", "coiling the scales",
+                "reading the heat shimmer", "tempering the claw", "tracking the flame",
+                "sharpening the edge", "waking the dragon",
+            ],
+            "wings": [
+                ["\u27e8\u25b2", "\u25b2\u27e9"],
+                ["\u27e8\u2726", "\u2726\u27e9"],
+                ["\u27e8\u25b4", "\u25b4\u27e9"],
+                ["\u27e8\u25c6", "\u25c6\u27e9"],
+            ],
+        },
+        "branding": {
+            "agent_name": "VarynX Agent",
+            "welcome": "Welcome to VarynX Agent! Type your message or /help for commands.",
+            "goodbye": "The embers dim. \u2726",
+            "response_label": " \u2726 VarynX ",
+            "prompt_symbol": "\u2726",
+            "help_header": "(\u2726) Available Commands",
+        },
+        "tool_prefix": "\u2502",
+        "banner_logo": """[bold #FFC857]██╗   ██╗ █████╗ ██████╗ ██╗   ██╗███╗   ██╗██╗  ██╗[/]
+[#FF8A3D]██║   ██║██╔══██╗██╔══██╗╚██╗ ██╔╝████╗  ██║╚██╗██╔╝[/]
+[#FF5A1F]██║   ██║███████║██████╔╝ ╚████╔╝ ██╔██╗ ██║ ╚███╔╝ [/]
+[#C7300E]╚██╗ ██╔╝██╔══██║██╔══██╗  ╚██╔╝  ██║╚██╗██║ ██╔██╗ [/]
+[#8B1A0A] ╚████╔╝ ██║  ██║██║  ██║   ██║   ██║ ╚████║██╔╝ ██╗[/]
+[#5C0F08]  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═══╝╚═╝  ╚═╝[/]""",
+        "banner_hero": """[#FFC857]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+[#FF8A3D]⠀⠀⠀⠀⠀⠀⠀⣠⣴⣾⠿⠛⠛⠿⣷⣦⣄⠀⠀⠀⠀⠀⠀⠀[/]
+[#FF5A1F]⠀⠀⠀⠀⠀⢀⣴⡿⠁⠀⠀▲⠀⠀⠈⢿⣦⡀⠀⠀⠀⠀⠀[/]
+[#FF5A1F]⠀⠀⠀⠀⣠⣿⠏⠀⠀⣀⣤⣤⣤⣀⠀⠀⠹⣿⣄⠀⠀⠀⠀[/]
+[#C7300E]⠀⠀⠀⣼⡟⠀⢀⣴⠟⠉⠀⠉⠻⢦⡀⠀⠹⣧⠀⠀⠀[/]
+[#C7300E]⠀⠀⢰⣿⠃⢀⣾⠏⠀⠀⠀⠀⠀⠀⢻⣷⡀⠸⣿⡆⠀⠀⠀[/]
+[#8B1A0A]⠀⠀⣿⡟⠀⣸⡟⠀⠀⠀✦⠀⠀⠀⠀⢻⣷⠀⠀⢻⣿⠀⠀⠀[/]
+[#8B1A0A]⠀⠀⣿⡇⠀⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⢸⣿⠀⠀⠀[/]
+[#5C0F08]⠀⠀⢿⣧⠀⠙⢿⣦⡀⠀⠀⠀⠀⠀⢀⣴⡿⠃⠀⣼⡿⠀⠀⠀[/]
+[#5C0F08]⠀⠀⠘⢿⣷⣄⠀⠙⠻⢶⣶⡶⠟⠋⣀⣾⡿⠃⠀⠀[/]
+[#C7300E]⠀⠀⠀⠀⠈⠛⠦⣤⣀⣀⣁⣀⣀⣤⠴⠛⠁⠀⠀⠀⠀⠀⠀[/]
+[#FF5A1F]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+[dim #5C0F08]⠀⠀⠀⠀⠀⠀⠀⠀the dragon wakes⠀⠀⠀⠀⠀⠀⠀[/]""",
+    },
 }
 
 
